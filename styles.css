@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+}
+
+#background-vid {
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    overflow: hidden;
+    pointer-events: none;
+}
+#background-vid video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+
+}
+
+#clock-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    position: relative;
+    z-index: 1;
+
+}
+
+#clock {
+    font-family: monospace;
+    font-size: 6.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
